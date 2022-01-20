@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'd:/BaiduNetdiskWorkspace/C code/12.9'
+gcc -g -c main.c
+ 
+gcc -g -c max.c
+gcc -g -o main.exe main.o max.o
+make.exe: Leaving directory 'd:/BaiduNetdiskWorkspace/C code/12.9'
+ 
